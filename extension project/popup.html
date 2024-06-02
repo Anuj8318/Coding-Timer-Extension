@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer Extension</title>
+  <style>
+    body {
+      width: 200px;
+      font-family: Arial, sans-serif;
+    }
+    .timer {
+      font-size: 2em;
+      text-align: center;
+    }
+    .controls {
+      text-align: center;
+      margin-top: 10px;
+    }
+    button {
+      margin: 5px;
+    }
+    input {
+      width: 80%;
+      text-align: center;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="timer" id="timer">00:00:00</div>
+  <input type="number" id="customTime" placeholder="Set time in seconds">
+  <div class="controls">
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    <button id="reset">Reset</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
